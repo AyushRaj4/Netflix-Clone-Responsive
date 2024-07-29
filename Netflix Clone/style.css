@@ -1,0 +1,525 @@
+/* The above code is a CSS stylesheet that defines the styling for a webpage. Here is a summary of what
+the code is doing: */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sec1 {
+    /* background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs); */
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-size: cover;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 570px;
+    background-color: black;
+}
+
+.border {
+    border-bottom: 8px solid rgb(34, 34, 34);
+}
+
+#last {
+    height: 403px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav {
+    justify-self: flex-start;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+}
+
+/* nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 135px;
+} */
+
+img, #nav-div {
+    margin: 1em 11em;
+}
+
+img {
+    width: 10%;
+    height: 70%;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: 1000;
+    margin-top: 1.5em;
+}
+
+h1, h3 {
+    color: aliceblue;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+input {
+    padding: 1.2em 12em 1.2em 1em;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 0.3em;
+    background: none;
+    color: white;
+    margin-right: 0.3em;
+    background-color: rgba(24, 25, 25, 0.7);
+}
+
+button {
+    background: red;
+    color: white;
+    padding: 0.35em 1em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 0.2em;
+    position: relative;
+    top: 4.8px;
+    font-weight: 500;
+    margin-bottom: 2em;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: rgba(255, 0, 0, 0.827);
+}
+
+.btn-span {
+    margin-left: 0em;
+}
+
+#rangle {
+    margin-right: 0;
+    margin-left: 0.5em;
+}
+
+.push-right {
+    font-size: medium;
+    padding: 0.5em 1em;
+    font-weight: 500;
+}
+
+select {
+    position: relative;
+    top: 6px;
+    font-size: medium;
+    padding: 0.4em 1em;
+    font-weight: 500;
+    background: none;
+    color: white;
+    border-radius: 0.3em;
+    padding: 0.5em 1.5em;
+}
+
+#nav-bt {
+    margin-left: 1.3em;
+}
+
+#sec2,
+#sec3,
+#sec4,
+#sec5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec6 {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6div {
+    width: 78%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.215);
+    margin-bottom: 0.6em;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    transition: background-color 0.2s;
+}
+
+.sec6div:hover {
+    background-color: rgba(255, 255, 255, 0.344);
+}
+
+#tv,
+#sacred {
+    width: 35%;
+    height: 70%;
+    margin: 0;
+    margin-right: 9em;
+}
+
+#sec2div,
+#sec4div {
+    margin-left: 9em;
+}
+
+#sec2h3,
+#sec3h3,
+#sec4h3,
+#sec5h3 {
+    font-size: 1.5em;
+}
+
+#download,
+#kids {
+    width: 40%;
+    height: 70%;
+    margin: 0 0 0 12em;
+}
+
+#sec3div,
+#sec5div {
+    margin-right: 6em;
+}
+
+#sec4div {
+    margin-left: 12em;
+}
+
+#sec3h3 {
+    margin-right: 10em;
+}
+
+#sec5h3 {
+    margin-right: 5em;
+}
+
+#download,
+#sec3div {
+    margin-bottom: 2em;
+}
+
+#sec5div {
+    margin-left: 1em;
+}
+
+#sacred {
+    margin-right: 11em;
+}
+
+span {
+    margin-left: 1.7em;
+}
+
+i {
+    margin-right: 1em;
+    font-size: 1.2em;
+}
+
+#rangle2 {
+    margin: 0;
+}
+
+#sec6h3 {
+    margin-top: 2em;
+}
+
+#sec6f {
+    margin-bottom: 3em;
+}
+
+ul {
+    color: white;
+}
+
+li {
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+#bottom {
+    padding: 0.3em 1em;
+    margin-bottom: 1em;
+}
+
+#lastli {
+    font-size: 0.9em;
+}
+
+@media (max-width: 1054px) {
+    h1 {
+        font-size: 2.3em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    #netflix {
+        height: 50%;
+    }
+
+    #nav-div,
+    #netflix {
+        margin: 1em 6em;
+    }
+
+    .start {
+        padding: 0.47em 0.5em;
+        font-size: 1.2em;
+    }
+
+    input {
+        padding: 0.5em 2em 0.5em 0.5em;
+        font-size: 1.2em;
+        position: relative;
+        top: 3.3px;
+    }
+}
+
+@media (max-width: 814px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    #netflix {
+        height: 40%;
+    }
+
+    #nav-div,
+    #netflix {
+        margin: 1em 3em;
+    }
+}
+
+@media (max-width: 650px) {
+    #sec1 {
+        height: 500px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start {
+        padding: 0.4em 0;
+        width: 50%;
+    }
+
+    input {
+        margin-bottom: 1em;
+    }
+
+    select {
+        font-size: 0.7em;
+    }
+
+    #nav-bt {
+        font-size: 0.8em;
+    }
+
+    h1, .yo {
+        text-align: center;
+        margin: 0 1.3em;
+        margin-bottom: 1em;
+    }
+
+    h1 {
+        line-height: 1.3em;
+        margin-top: 2.5em;
+    }
+
+    #netflix {
+        height: 25%;
+        width: 20%;
+        margin-left: 1.5em;
+        margin-top: 1.5em;
+    }
+
+    #nav-div {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    #first-h3 {
+        margin-bottom: 2em;
+    }
+
+    #sec2,
+    #sec3,
+    #sec4,
+    #sec5 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    }
+
+    #sec2 img,
+    h3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    #sec2 img {
+        height: 40%;
+        width: 70%;
+        margin-bottom: 3em;
+    }
+
+    #sec2 h1 {
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    #sec2 h3 {
+        font-size: 1em;
+        margin: 0 2em;
+    }
+
+    #sec2 div {
+        margin-left: 0;
+    }
+
+    #sec3 {
+        flex-direction: column-reverse;
+    }
+
+    #sec3 img,
+    h3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    #sec3 img {
+        height: 40%;
+        width: 50%;
+    }
+
+    #sec3 h1 {
+        font-size: 1.8em;
+        margin: 0;
+        margin: 0 1.5em 0.5em 1.5em;
+    }
+
+    #sec3h3 {
+        font-size: 1em;
+        margin: 0;
+        margin: 0 2em 1.5em 2em;
+    }
+
+    #sec3div {
+        margin: 0;
+    }
+
+    #sec4 h1,
+    h3,
+    div {
+        margin: 0;
+    }
+
+    #sec4div, #sacred {
+        margin: 0;
+    }
+
+    #sec4 h1 {
+        font-size: 1.8em;
+        margin-bottom: 1em;
+    }
+
+    #sec4 h3 {
+        font-size: 1em;
+        margin: 0 2em 1.5em 2em;
+    }
+
+    #sec4 img {
+        width: 50%;
+        height: 40%;
+    }
+
+    #sec5 {
+        flex-direction: column-reverse;
+    }
+
+    #sec5 h1, h3, img, div {
+        margin: 0;
+    }
+
+    #sec5div {
+        margin: 0;
+    }
+
+    #kids {
+        margin: 0;
+    }
+
+    #sec5 h1 {
+        font-size: 1.8em;
+        margin: 1em 1em;
+    }
+
+    #sec5h3 {
+        margin: 0;
+        font-size: 1em;
+        margin-bottom: 1.5em;
+        margin: 0 2em 1.5em 2em;
+    }
+
+    #kids {
+        width: 60%;
+        height: 40%;
+    }
+
+    #sec6 div {
+        font-size: 1em;
+    }
+
+    #sec6 h3 {
+        margin: 2em 2em 1em 2em;
+    }
+
+    #sec6 input {
+        margin-bottom: 0.7em;
+    }
+
+    #sec6 button {
+        margin-bottom: 0;
+    }
+
+    #last ul {
+        font-size: 0.5em;
+    }
+}
